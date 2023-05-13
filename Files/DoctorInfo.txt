@@ -1,0 +1,10 @@
+3002.0;Rafi;50.0;Male;Neurologist
+3003.0;Robin;40.0;Male;Cardiologist
+3004.0;Sumaiya;35.0;Female;Dermatologist
+3006.0;Asif;45.0;Male;Psychiatrist
+3007.0; Jannat;25.0; Female; Heart Specialist
+3002.0;Rafi;50.0;Male;Neurologist
+3003.0;Robin;40.0;Male;Cardiologist
+3004.0;Sumaiya;35.0;Female;Dermatologist
+3006.0;Asif;45.0;Male;Psychiatrist
+3007.0; Jannat;25.0; Female; Heart Specialist
