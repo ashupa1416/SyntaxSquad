@@ -34,19 +34,6 @@ public class Login extends JFrame implements ActionListener {
         Image WImage = icon.getImage();
         this.setIconImage(WImage);
 
-        //Images
-        ImageIcon image = new ImageIcon("./GUI/Resource/bg1.png");
-		JLabel background = new JLabel();
-		background.setBounds(0,0,340,450);
-		background.setIcon(image);
-		this.add(background);
-
-        ImageIcon image2 = new ImageIcon("./GUI/Resource/bg2.png");
-		JLabel background2 = new JLabel();
-		background2.setBounds(340,0,360,450);
-		background2.setIcon(image2);
-		this.add(background2);
-
         //Login Label
         loginLabel = new JLabel("Login");
         loginLabel.setBounds(470, 30, 180, 50);
@@ -86,9 +73,23 @@ public class Login extends JFrame implements ActionListener {
         btnLogin.addActionListener(this);
         this.add(btnLogin);
 
+        //Images
+        ImageIcon image = new ImageIcon("./GUI/Resource/bg1.png");
+		JLabel background = new JLabel();
+		background.setBounds(0,0,340,450);
+		background.setIcon(image);
+		this.add(background);
+
+        ImageIcon image2 = new ImageIcon("./GUI/Resource/bg2.png");
+		JLabel background2 = new JLabel();
+		background2.setBounds(340,0,360,450);
+		background2.setIcon(image2);
+		this.add(background2);
+
+        panel.add(loginLabel);
         panel.add(userNameLabel);
         panel.add(userPassLabel);
-        panel.add(loginLabel);
+    
         this.setVisible(true);
     }
 

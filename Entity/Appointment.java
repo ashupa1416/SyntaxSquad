@@ -28,7 +28,7 @@ public void showInfo() {
             System.out.println("Appointment Age: " + age);
             System.out.println("Appointment Gender: " + gender);
             System.out.println("Recommended Doctor: " + recommendedDoctor);
-			//System.out.println("Appointment Time: " + appointmentTime);
+			System.out.println("Appointment Time: " + appointmentTime);
             
     }
 
